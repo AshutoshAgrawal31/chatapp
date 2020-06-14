@@ -19,7 +19,7 @@ const {username,room}=Qs.parse(location.search,{ignoreQueryPrefix: true})
 
 const autoscroll=()=>{
     //new message
-    const $newmsg=$msgformInput.lastElementChild
+    const $newmsg=$msg.lastElementChild
 
     //height of new msg
     const style=getComputedStyle($newmsg)
